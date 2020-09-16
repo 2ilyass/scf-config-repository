@@ -9,4 +9,4 @@ spring:
 server:
   servlet:
     context-path: /uaa
-  port: 8082
+  port: 8081
