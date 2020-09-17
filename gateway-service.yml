@@ -12,7 +12,7 @@ zuul:
       sensitiveHeaders:
 
     habilitation-service:
-      path: /habilitation/**
+      path: /habilitations/**
       serviceId: habilitation-service
       stripPrefix: false
       sensitiveHeaders:
