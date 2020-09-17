@@ -1,2 +1,17 @@
+security:
+  oauth2:
+    client:
+      clientId: habilitation-service
+      clientSecret: 1234
+      accessTokenUri: http://localhost:8081/uaa/oauth/token
+      grant-type: client_credentials
+      scope: server
+
 server:
+  servlet:
+    context-path: /habilitations
   port: 1111
+
+feign:
+  hystrix:
+    enabled: true  
