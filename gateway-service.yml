@@ -11,11 +11,11 @@ zuul:
       stripPrefix: false #if zuul should replace the "/uaa/" segment
       sensitiveHeaders:
 
-    habilitation-service:
-      path: /habilitation/**
-      serviceId: habilitation-service
-      stripPrefix: false
-      sensitiveHeaders:
+#    habilitation-service:
+#      path: /habilitation/**
+#      serviceId: habilitation-service
+#      stripPrefix: false
+#      sensitiveHeaders:
 
 server:
   port: 8080
