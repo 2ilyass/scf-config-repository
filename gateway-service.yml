@@ -20,6 +20,12 @@ zuul:
       serviceId: habilitation-service
       stripPrefix: false
       sensitiveHeaders:
+      
+    habilitationTest:
+      path: /habilitationTest/**
+      serviceId: habilitationTest
+      stripPrefix: false
+      sensitiveHeaders:
 
 server:
   port: 8080
